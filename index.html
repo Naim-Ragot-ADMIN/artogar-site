@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artogar | Electricite, plomberie et depannage a Villeneuve-sur-Lot</title>
   <meta name="description" content="Artogar a Villeneuve-sur-Lot : electricite, plomberie, depannage rapide, volets roulants, portails electriques, maintenance et installation. Contact direct et devis gratuit.">
-  <meta name="keywords" content="Artogar, Villeneuve-sur-Lot, electricite, plomberie, depannage, volets roulants, portails electriques, maintenance, installation, devis gratuit">
-  <meta name="theme-color" content="#1f4f86">
+  <meta name="keywords" content="Artogar, Villeneuve-sur-Lot, electricite, plomberie, depannage, volets roulants, portails electriques, maintenance, installation">
+  <meta name="theme-color" content="#1d4f84">
   <meta property="og:title" content="Artogar - Electricite, plomberie et depannage">
-  <meta property="og:description" content="Les informations essentielles d'Artogar, entreprise basee a Villeneuve-sur-Lot.">
+  <meta property="og:description" content="Les informations essentielles d'Artogar a Villeneuve-sur-Lot.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:image" content="./artogar-flyer.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <script type="application/ld+json">
     {
@@ -35,8 +35,8 @@
   </script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="shell topbar-inner">
+  <header class="site-header">
+    <div class="container header-inner">
       <a class="brand" href="#accueil" aria-label="Artogar accueil">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 64 64">
@@ -57,136 +57,163 @@
         <span></span>
       </button>
 
-      <nav class="nav" id="site-nav">
-        <a href="#infos">Infos</a>
+      <nav class="site-nav" id="site-nav">
         <a href="#services">Services</a>
+        <a href="#infos">Infos pratiques</a>
         <a href="#contact">Contact</a>
-        <a class="nav-call" href="tel:+33615092165">06 15 09 21 65</a>
+        <a class="header-call" href="tel:+33615092165">06 15 09 21 65</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero shell reveal" id="accueil">
-      <div class="hero-copy">
-        <p class="eyebrow">Travaux • Services • Depannages</p>
-        <h1>Artogar</h1>
-        <p class="hero-subtitle">Electricite, plomberie et depannage rapide a Villeneuve-sur-Lot et alentours.</p>
-        <p class="hero-text">Le site va a l'essentiel : qui est l'entreprise, ce qu'elle fait et comment la contacter rapidement.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="tel:+33615092165">Appeler</a>
-          <a class="button button-secondary" href="mailto:contact.artogar@gmail.com">Envoyer un email</a>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Travaux • Services • Depannages</p>
+          <h1>Artogar, entreprise locale a Villeneuve-sur-Lot</h1>
+          <p class="hero-lead">Electricite, plomberie, depannage rapide, volets roulants, portails electriques, maintenance et installation.</p>
+          <p class="hero-text">Le but du site est simple : donner les informations utiles tout de suite et permettre de contacter l'entreprise rapidement.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:+33615092165">Appeler maintenant</a>
+            <a class="button button-secondary" href="mailto:contact.artogar@gmail.com">Envoyer un email</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal">
+          <div class="quick-card">
+            <span class="card-label">Telephone</span>
+            <strong>06 15 09 21 65</strong>
+            <p>Contact direct pour demander un devis ou une intervention.</p>
+          </div>
+          <div class="quick-card">
+            <span class="card-label">Adresse</span>
+            <strong>47300 Villeneuve-sur-Lot</strong>
+            <p>Intervention sur Villeneuve-sur-Lot et alentours.</p>
+          </div>
+          <div class="quick-card">
+            <span class="card-label">Entreprise</span>
+            <strong>Siret 28237947700047</strong>
+            <p>Informations claires et visibles des l'arrivee sur le site.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container flyer-section reveal">
+        <div class="section-head compact">
+          <p class="eyebrow">Presentation</p>
+          <h2>Le flyer de l'entreprise</h2>
+          <p>Retrouvez sur une seule vue les principales informations, les services et les coordonnees d'Artogar.</p>
+        </div>
+        <div class="flyer-frame">
+          <img src="./artogar-flyer.png" alt="Flyer Artogar">
         </div>
       </div>
-
-      <figure class="hero-flyer">
-        <img src="./artogar-flyer.png" alt="Flyer Artogar">
-      </figure>
     </section>
 
-    <section class="info-strip" id="infos">
-      <div class="shell info-grid reveal">
-        <article class="info-card">
-          <span class="info-label">Telephone</span>
-          <strong>06 15 09 21 65</strong>
-          <p>Contact direct pour demander une intervention ou un devis.</p>
-        </article>
-        <article class="info-card">
-          <span class="info-label">Email</span>
-          <strong>contact.artogar@gmail.com</strong>
-          <p>Pratique pour envoyer une demande ou decrire un besoin.</p>
-        </article>
-        <article class="info-card">
-          <span class="info-label">Localisation</span>
-          <strong>47300 Villeneuve-sur-Lot</strong>
-          <p>Entreprise locale avec intervention sur les alentours.</p>
-        </article>
-        <article class="info-card">
-          <span class="info-label">Entreprise</span>
-          <strong>Siret 28237947700047</strong>
-          <p>Informations visibles et claires des l'arrivee sur le site.</p>
-        </article>
-      </div>
-    </section>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Les interventions proposees</h2>
+          <p>Une lecture simple et directe pour comprendre rapidement les domaines d'intervention.</p>
+        </div>
 
-    <section class="section shell section-services" id="services">
-      <div class="section-head reveal">
-        <p class="eyebrow">Services</p>
-        <h2>Les domaines d'intervention</h2>
-        <p>Une presentation simple pour comprendre rapidement ce que fait Artogar.</p>
-      </div>
-
-      <div class="services-grid">
-        <article class="service-card reveal">
-          <h3>Electricite</h3>
-          <p>Recherche de panne, remise en service et petits travaux electriques.</p>
-        </article>
-        <article class="service-card reveal">
-          <h3>Plomberie</h3>
-          <p>Depannage courant, petites fuites et interventions utiles au quotidien.</p>
-        </article>
-        <article class="service-card reveal">
-          <h3>Depannage rapide</h3>
-          <p>Une reponse locale pour les situations urgentes ou bloquantes.</p>
-        </article>
-        <article class="service-card reveal">
-          <h3>Volets roulants</h3>
-          <p>Assistance, reglage et remise en etat des equipements.</p>
-        </article>
-        <article class="service-card reveal">
-          <h3>Portails electriques</h3>
-          <p>Depannage, controle et interventions sur les automatismes.</p>
-        </article>
-        <article class="service-card reveal">
-          <h3>Maintenance et installation</h3>
-          <p>Pose, verification, reglage et mise en service des installations.</p>
-        </article>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <h3>Electricite</h3>
+            <p>Recherche de panne, remise en service et petits travaux electriques.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Plomberie</h3>
+            <p>Depannage courant, fuites et interventions utiles au quotidien.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Depannage rapide</h3>
+            <p>Une reponse locale pour les situations urgentes ou bloquantes.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Volets roulants</h3>
+            <p>Assistance, reglage et remise en etat des equipements.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Portails electriques</h3>
+            <p>Depannage, controle et interventions sur les automatismes.</p>
+          </article>
+          <article class="service-card reveal">
+            <h3>Maintenance et installation</h3>
+            <p>Pose, verification, reglage et mise en service des installations.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section shell simple-block reveal">
-      <div class="simple-copy">
-        <p class="eyebrow">Pourquoi ce site</p>
-        <h2>Donner les bonnes informations sans compliquer la visite</h2>
-        <p>Le client ne vient pas ici pour etre convaincu par un discours marketing. Il vient surtout pour trouver rapidement les services, les coordonnees et savoir ou se situe l'entreprise.</p>
+    <section class="section section-alt" id="infos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Infos pratiques</p>
+          <h2>L'essentiel pour trouver l'entreprise rapidement</h2>
+          <p>Cette page sert avant tout de vitrine d'information : qui, quoi, ou, comment contacter.</p>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card reveal">
+            <span class="info-label">Entreprise locale</span>
+            <strong>Villeneuve-sur-Lot</strong>
+            <p>Une presence locale pour les besoins du quotidien et les depannages.</p>
+          </article>
+          <article class="info-card reveal">
+            <span class="info-label">Devis gratuit</span>
+            <strong>Premier contact simple</strong>
+            <p>Un appel ou un email suffit pour faire le point sur le besoin.</p>
+          </article>
+          <article class="info-card reveal">
+            <span class="info-label">Services</span>
+            <strong>Travaux et depannages</strong>
+            <p>Electricite, plomberie, volets roulants, portails et maintenance.</p>
+          </article>
+          <article class="info-card reveal">
+            <span class="info-label">Contact direct</span>
+            <strong>06 15 09 21 65</strong>
+            <p>Le moyen le plus rapide pour obtenir une information ou une intervention.</p>
+          </article>
+        </div>
       </div>
-      <ul class="simple-list">
-        <li>Contact visible tout de suite</li>
-        <li>Services clairs et lisibles</li>
-        <li>Entreprise locale identifiee</li>
-        <li>Page simple sur telephone comme sur ordinateur</li>
-      </ul>
     </section>
 
-    <section class="section shell contact-section reveal" id="contact">
-      <div class="section-head compact">
-        <p class="eyebrow">Contact</p>
-        <h2>Besoin d'une information ou d'une intervention ?</h2>
-        <p>Le plus simple est d'appeler ou d'envoyer un email.</p>
-      </div>
+    <section class="section" id="contact">
+      <div class="container contact-wrap reveal">
+        <div class="section-head compact">
+          <p class="eyebrow">Contact</p>
+          <h2>Besoin d'une information ou d'une intervention ?</h2>
+          <p>Le plus simple est d'appeler directement ou d'envoyer un email.</p>
+        </div>
 
-      <div class="contact-actions-grid">
-        <a class="contact-tile" href="tel:+33615092165">
-          <span>Appeler</span>
-          <strong>06 15 09 21 65</strong>
-          <em>Contact direct</em>
-        </a>
-        <a class="contact-tile" href="mailto:contact.artogar@gmail.com">
-          <span>Email</span>
-          <strong>contact.artogar@gmail.com</strong>
-          <em>Reponse rapide</em>
-        </a>
-        <div class="contact-tile">
-          <span>Adresse</span>
-          <strong>Villeneuve-sur-Lot</strong>
-          <em>47300 et alentours</em>
+        <div class="contact-grid">
+          <a class="contact-card" href="tel:+33615092165">
+            <span class="card-label">Telephone</span>
+            <strong>06 15 09 21 65</strong>
+            <em>Appel direct</em>
+          </a>
+          <a class="contact-card" href="mailto:contact.artogar@gmail.com">
+            <span class="card-label">Email</span>
+            <strong>contact.artogar@gmail.com</strong>
+            <em>Envoyer un message</em>
+          </a>
+          <a class="contact-card" href="https://www.google.com/maps/search/?api=1&query=Artogar+Villeneuve-sur-Lot" target="_blank" rel="noreferrer">
+            <span class="card-label">Localisation</span>
+            <strong>47300 Villeneuve-sur-Lot</strong>
+            <em>Ouvrir sur la carte</em>
+          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="shell footer-grid">
+  <footer class="site-footer">
+    <div class="container footer-grid">
       <div>
         <strong>Artogar</strong>
         <p>Electricite, plomberie, depannage rapide, volets roulants, portails electriques, maintenance et installation.</p>
